@@ -1,0 +1,13 @@
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/data/RoleData.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/KalturaLtiAuthCodeDaoImpl.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/KalturaLtiRoleDaoImpl.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/KalturaSiteCopyBatchDaoImpl.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/data/SiteCopyBatchData.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/data/SiteCopyJobData.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/sql/SiteCopyBatchSql.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/sql/RoleSql.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/Database.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/jdbc/sql/SiteCopyJobSql.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/KalturaSiteCopyJobDaoImpl.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/impl/dao/PreloadLtiRoleDataImpl.java
+/home/sakai/sakai-10.x/kaltura-new/impl/src/main/java/org/sakaiproject/kaltura/services/AddMyMediaJob.java

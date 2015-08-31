@@ -1,0 +1,16 @@
+org/sakaiproject/kaltura/models/error/BaseError.class
+org/sakaiproject/kaltura/models/EmbeddedMediaModel.class
+org/sakaiproject/kaltura/models/UserSiteRole.class
+org/sakaiproject/kaltura/api/dao/KalturaSiteCopyBatchDao.class
+org/sakaiproject/kaltura/models/User.class
+org/sakaiproject/kaltura/models/dao/KalturaSiteCopyJob.class
+org/sakaiproject/kaltura/api/dao/KalturaLtiRoleDao.class
+org/sakaiproject/kaltura/api/dao/KalturaLtiAuthCodeDao.class
+org/sakaiproject/kaltura/models/error/ErrorRole.class
+org/sakaiproject/kaltura/models/error/Error.class
+org/sakaiproject/kaltura/models/error/ErrorUser.class
+org/sakaiproject/kaltura/models/dao/KalturaLtiAuthCode.class
+org/sakaiproject/kaltura/models/dao/KalturaSiteCopyBatch.class
+org/sakaiproject/kaltura/api/dao/KalturaSiteCopyJobDao.class
+org/sakaiproject/kaltura/models/error/ErrorAuthCode.class
+org/sakaiproject/kaltura/models/dao/KalturaLtiRole.class

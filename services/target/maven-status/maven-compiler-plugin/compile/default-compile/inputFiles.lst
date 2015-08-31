@@ -1,0 +1,14 @@
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/RoleService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/KalturaLTIService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/KalturaSiteCopyBatchJob.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/provider/RoleProviderService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/providers/KalturaProvider.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/SecurityService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/UserService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/provider/GitProviderService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/RestService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/provider/AuthCodeProviderService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/provider/UserProviderService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/CheckKalturaSiteCopyJob.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/AuthCodeService.java
+/home/sakai/sakai-10.x/kaltura-new/services/src/main/java/org/sakaiproject/kaltura/services/KalturaEntityProducer.java

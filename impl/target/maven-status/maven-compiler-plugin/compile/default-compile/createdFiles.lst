@@ -1,0 +1,13 @@
+org/sakaiproject/kaltura/impl/dao/PreloadLtiRoleDataImpl.class
+org/sakaiproject/kaltura/impl/dao/jdbc/sql/RoleSql.class
+org/sakaiproject/kaltura/impl/dao/KalturaSiteCopyBatchDaoImpl.class
+org/sakaiproject/kaltura/impl/dao/KalturaSiteCopyJobDaoImpl.class
+org/sakaiproject/kaltura/services/AddMyMediaJob.class
+org/sakaiproject/kaltura/impl/dao/jdbc/data/SiteCopyJobData.class
+org/sakaiproject/kaltura/impl/dao/KalturaLtiAuthCodeDaoImpl.class
+org/sakaiproject/kaltura/impl/dao/jdbc/sql/SiteCopyBatchSql.class
+org/sakaiproject/kaltura/impl/dao/jdbc/data/SiteCopyBatchData.class
+org/sakaiproject/kaltura/impl/dao/jdbc/data/RoleData.class
+org/sakaiproject/kaltura/impl/dao/jdbc/sql/SiteCopyJobSql.class
+org/sakaiproject/kaltura/impl/dao/jdbc/Database.class
+org/sakaiproject/kaltura/impl/dao/KalturaLtiRoleDaoImpl.class

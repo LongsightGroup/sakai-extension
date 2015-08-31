@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>kaltura</artifactId>
+    <groupId>org.sakaiproject.kaltura</groupId>
+    <version>0.1</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <name>Kaltura API</name>
+  <artifactId>kaltura-api</artifactId>
+  <organization>
+    <name>Unicon, Inc.</name>
+    <url>http://www.unicon.net</url>
+  </organization>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.sakaiproject.kaltura</groupId>
+      <artifactId>kaltura-utils</artifactId>
+      <version>${kaltura.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.sakaiproject.kernel</groupId>
+      <artifactId>sakai-kernel-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sakaiproject</groupId>
+      <artifactId>generic-dao</artifactId>
+      <version>${generic-dao.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${commons.lang3.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <plugins>
+      <plugin>
+        <!-- Used to replace the headers of files with proper licenses - 
+        http://code.google.com/p/maven-license-plugin - 
+        Run mvn license:format to fix up licenses on all files in the project -->
+        <groupId>com.mycila.maven-license-plugin</groupId>
+        <artifactId>maven-license-plugin</artifactId>
+        <version>1.9.0</version>
+        <configuration>
+          <strictCheck>true</strictCheck>
+          <header>../LICENSE_HEADER</header>
+          <properties>
+            <name>${project.name}</name>
+            <year>${project.inceptionYear}</year>
+            <holder>Sakaiproject</holder>
+          </properties>
+          <excludes>
+            <exclude>target/**</exclude>
+            <exclude>m2-target/**</exclude>
+            <exclude>.idea/**</exclude>
+            <exclude>**/*.properties</exclude>
+            <exclude>**/*.txt</exclude>
+            <exclude>**/*.jsp</exclude>
+            <exclude>**/js/**</exclude>
+            <exclude>**/css/**</exclude>
+            <exclude>**/*.xml</exclude>
+            <exclude>**/*.sql</exclude>
+            <exclude>LICENSE*</exclude>
+            <exclude>bin/**</exclude>
+            <exclude>*.sql</exclude>
+            <exclude>*.md</exclude>
+            <exclude>.gitignore</exclude>
+          </excludes>
+          <mapping>
+            <tag>DYNASCRIPT_STYLE</tag>
+          </mapping>
+          <encoding>UTF-8</encoding>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
