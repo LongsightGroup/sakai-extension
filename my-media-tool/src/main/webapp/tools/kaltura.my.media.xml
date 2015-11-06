@@ -19,8 +19,6 @@ Unless required by applicable law or agreed to in writing,
     <tool id="kaltura.my.media"
           title="Kaltura My Media"
           description="Kaltura My Media tool">
-        <category name="course" />
-        <category name="project" />
         <category name="myworkspace" />
         <!-- <category name="sakai.admin" /> -->
     </tool>
